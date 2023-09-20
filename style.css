@@ -1,0 +1,95 @@
+            
+            ul {
+                position : absolute;
+                right : 130px;
+                margin : 140px; 
+                top: 25%;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color:#fff;
+            }
+            header {
+                background-color:black;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+            }
+            .content {
+                position: absolute;
+                left:50%;
+                top:50%;
+                transform: translate(-50%,-50%);
+                width:1000px;
+                height:600px;
+                padding:50px;
+                background-color: #f5f5f5;
+                box-shadow: 0 30px 50px #dbdbdb;
+            }
+            .container {
+                position : absolute;
+                max-width: 600px;
+                margin: 60px ;
+                top :85px;
+                padding: 35px;
+                background-color: #dbdbdb;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 30px;
+            }
+    
+            .toggle-button {
+                background-color: green;
+                color:aqua;
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                border-radius: 50px;
+                width: 70%;
+                text-align: center;
+            }
+    
+            .toggle-button:focus {
+                outline: none;
+            }
+    
+            .toggle-content {
+                display: none;
+                padding: 10px;
+            }
+            h2 {
+                background-color:#fff;
+                border-radius: 5px;
+            }
+    
+    #image-container {
+        position: none;
+        width: 200px;
+        height: 100px;
+        overflow: hidden;
+        
+    }
+    
+    #image-container img {
+        position : absolute;
+        right : 350px;
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        transition: transform 1s ease-in-out;
+        box-shadow: 0 30px 50px #dbdbdb;
+        top : 32%;
+    }     
+    
+    #search-container {
+        text-align: center;
+        padding: 20px;
+    }
+    #search-box {
+        padding: 5px;
+    }
+    .highlighted {
+                background-color: yellow;
+                font-weight: bold;
+            }
